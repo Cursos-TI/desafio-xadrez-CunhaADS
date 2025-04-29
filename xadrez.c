@@ -33,6 +33,20 @@ int main() {
         printf("Esquerda\n");
         i++;
     } while (i < rainha);
+
+     printf("\n");
+
+    // Movimento do cavalo: duas casa para cima e uma para direita;
+    printf("cavalo, duas casa para cima e uma para direita:\n\n");
+
+    for (i = 0; i < 2; i++) {
+        printf("cima\n");
+
+        while (j < 1 && i == 1) {
+            printf("direita\n");
+            j++;
+        }  
+    }
     
     return 0;
 }
